@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		94C7CAD81D88720E000C2C9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7CAD71D88720E000C2C9D /* AppDelegate.swift */; };
+		94C7CADA1D88720E000C2C9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7CAD91D88720E000C2C9D /* ViewController.swift */; };
+		94C7CADD1D88720E000C2C9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C7CADB1D88720E000C2C9D /* Main.storyboard */; };
+		94C7CAE01D88720E000C2C9D /* LendingClub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 94C7CADE1D88720E000C2C9D /* LendingClub.xcdatamodeld */; };
+		94C7CAE21D88720E000C2C9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C7CAE11D88720E000C2C9D /* Assets.xcassets */; };
+		94C7CAE51D88720E000C2C9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94C7CAE31D88720E000C2C9D /* LaunchScreen.storyboard */; };
+		94C7CAF01D88720E000C2C9D /* LendingClubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7CAEF1D88720E000C2C9D /* LendingClubTests.swift */; };
+		94C7CAFB1D88720E000C2C9D /* LendingClubUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C7CAFA1D88720E000C2C9D /* LendingClubUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		94C7CAEC1D88720E000C2C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C7CACC1D88720E000C2C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C7CAD31D88720E000C2C9D;
+			remoteInfo = LendingClub;
+		};
+		94C7CAF71D88720E000C2C9D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 94C7CACC1D88720E000C2C9D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 94C7CAD31D88720E000C2C9D;
+			remoteInfo = LendingClub;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		94C7CAD41D88720E000C2C9D /* LendingClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LendingClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C7CAD71D88720E000C2C9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		94C7CAD91D88720E000C2C9D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		94C7CADC1D88720E000C2C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94C7CADF1D88720E000C2C9D /* LendingClub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LendingClub.xcdatamodel; sourceTree = "<group>"; };
+		94C7CAE11D88720E000C2C9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94C7CAE41D88720E000C2C9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94C7CAE61D88720E000C2C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C7CAEB1D88720E000C2C9D /* LendingClubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendingClubTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C7CAEF1D88720E000C2C9D /* LendingClubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingClubTests.swift; sourceTree = "<group>"; };
+		94C7CAF11D88720E000C2C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94C7CAF61D88720E000C2C9D /* LendingClubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LendingClubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		94C7CAFA1D88720E000C2C9D /* LendingClubUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LendingClubUITests.swift; sourceTree = "<group>"; };
+		94C7CAFC1D88720E000C2C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94C7CAD11D88720E000C2C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7CAE81D88720E000C2C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7CAF31D88720E000C2C9D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		94C7CACB1D88720E000C2C9D = {
+			isa = PBXGroup;
+			children = (
+				94C7CAD61D88720E000C2C9D /* LendingClub */,
+				94C7CAEE1D88720E000C2C9D /* LendingClubTests */,
+				94C7CAF91D88720E000C2C9D /* LendingClubUITests */,
+				94C7CAD51D88720E000C2C9D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		94C7CAD51D88720E000C2C9D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94C7CAD41D88720E000C2C9D /* LendingClub.app */,
+				94C7CAEB1D88720E000C2C9D /* LendingClubTests.xctest */,
+				94C7CAF61D88720E000C2C9D /* LendingClubUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94C7CAD61D88720E000C2C9D /* LendingClub */ = {
+			isa = PBXGroup;
+			children = (
+				94C7CAD71D88720E000C2C9D /* AppDelegate.swift */,
+				94C7CAD91D88720E000C2C9D /* ViewController.swift */,
+				94C7CADB1D88720E000C2C9D /* Main.storyboard */,
+				94C7CAE11D88720E000C2C9D /* Assets.xcassets */,
+				94C7CAE31D88720E000C2C9D /* LaunchScreen.storyboard */,
+				94C7CAE61D88720E000C2C9D /* Info.plist */,
+				94C7CADE1D88720E000C2C9D /* LendingClub.xcdatamodeld */,
+			);
+			path = LendingClub;
+			sourceTree = "<group>";
+		};
+		94C7CAEE1D88720E000C2C9D /* LendingClubTests */ = {
+			isa = PBXGroup;
+			children = (
+				94C7CAEF1D88720E000C2C9D /* LendingClubTests.swift */,
+				94C7CAF11D88720E000C2C9D /* Info.plist */,
+			);
+			path = LendingClubTests;
+			sourceTree = "<group>";
+		};
+		94C7CAF91D88720E000C2C9D /* LendingClubUITests */ = {
+			isa = PBXGroup;
+			children = (
+				94C7CAFA1D88720E000C2C9D /* LendingClubUITests.swift */,
+				94C7CAFC1D88720E000C2C9D /* Info.plist */,
+			);
+			path = LendingClubUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94C7CAD31D88720E000C2C9D /* LendingClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C7CAFF1D88720E000C2C9D /* Build configuration list for PBXNativeTarget "LendingClub" */;
+			buildPhases = (
+				94C7CAD01D88720E000C2C9D /* Sources */,
+				94C7CAD11D88720E000C2C9D /* Frameworks */,
+				94C7CAD21D88720E000C2C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LendingClub;
+			productName = LendingClub;
+			productReference = 94C7CAD41D88720E000C2C9D /* LendingClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+		94C7CAEA1D88720E000C2C9D /* LendingClubTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C7CB021D88720E000C2C9D /* Build configuration list for PBXNativeTarget "LendingClubTests" */;
+			buildPhases = (
+				94C7CAE71D88720E000C2C9D /* Sources */,
+				94C7CAE81D88720E000C2C9D /* Frameworks */,
+				94C7CAE91D88720E000C2C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C7CAED1D88720E000C2C9D /* PBXTargetDependency */,
+			);
+			name = LendingClubTests;
+			productName = LendingClubTests;
+			productReference = 94C7CAEB1D88720E000C2C9D /* LendingClubTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		94C7CAF51D88720E000C2C9D /* LendingClubUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94C7CB051D88720E000C2C9D /* Build configuration list for PBXNativeTarget "LendingClubUITests" */;
+			buildPhases = (
+				94C7CAF21D88720E000C2C9D /* Sources */,
+				94C7CAF31D88720E000C2C9D /* Frameworks */,
+				94C7CAF41D88720E000C2C9D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				94C7CAF81D88720E000C2C9D /* PBXTargetDependency */,
+			);
+			name = LendingClubUITests;
+			productName = LendingClubUITests;
+			productReference = 94C7CAF61D88720E000C2C9D /* LendingClubUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94C7CACC1D88720E000C2C9D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Globant;
+				TargetAttributes = {
+					94C7CAD31D88720E000C2C9D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					94C7CAEA1D88720E000C2C9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94C7CAD31D88720E000C2C9D;
+					};
+					94C7CAF51D88720E000C2C9D = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 94C7CAD31D88720E000C2C9D;
+					};
+				};
+			};
+			buildConfigurationList = 94C7CACF1D88720E000C2C9D /* Build configuration list for PBXProject "LendingClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94C7CACB1D88720E000C2C9D;
+			productRefGroup = 94C7CAD51D88720E000C2C9D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94C7CAD31D88720E000C2C9D /* LendingClub */,
+				94C7CAEA1D88720E000C2C9D /* LendingClubTests */,
+				94C7CAF51D88720E000C2C9D /* LendingClubUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94C7CAD21D88720E000C2C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7CAE51D88720E000C2C9D /* LaunchScreen.storyboard in Resources */,
+				94C7CAE21D88720E000C2C9D /* Assets.xcassets in Resources */,
+				94C7CADD1D88720E000C2C9D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7CAE91D88720E000C2C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7CAF41D88720E000C2C9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94C7CAD01D88720E000C2C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7CADA1D88720E000C2C9D /* ViewController.swift in Sources */,
+				94C7CAD81D88720E000C2C9D /* AppDelegate.swift in Sources */,
+				94C7CAE01D88720E000C2C9D /* LendingClub.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7CAE71D88720E000C2C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7CAF01D88720E000C2C9D /* LendingClubTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		94C7CAF21D88720E000C2C9D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94C7CAFB1D88720E000C2C9D /* LendingClubUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		94C7CAED1D88720E000C2C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C7CAD31D88720E000C2C9D /* LendingClub */;
+			targetProxy = 94C7CAEC1D88720E000C2C9D /* PBXContainerItemProxy */;
+		};
+		94C7CAF81D88720E000C2C9D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 94C7CAD31D88720E000C2C9D /* LendingClub */;
+			targetProxy = 94C7CAF71D88720E000C2C9D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		94C7CADB1D88720E000C2C9D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C7CADC1D88720E000C2C9D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94C7CAE31D88720E000C2C9D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94C7CAE41D88720E000C2C9D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94C7CAFD1D88720E000C2C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		94C7CAFE1D88720E000C2C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94C7CB001D88720E000C2C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LendingClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = globant.LendingClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		94C7CB011D88720E000C2C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LendingClub/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = globant.LendingClub;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		94C7CB031D88720E000C2C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LendingClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = globant.LendingClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendingClub.app/LendingClub";
+			};
+			name = Debug;
+		};
+		94C7CB041D88720E000C2C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LendingClubTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = globant.LendingClubTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LendingClub.app/LendingClub";
+			};
+			name = Release;
+		};
+		94C7CB061D88720E000C2C9D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LendingClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = globant.LendingClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LendingClub;
+			};
+			name = Debug;
+		};
+		94C7CB071D88720E000C2C9D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LendingClubUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = globant.LendingClubUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LendingClub;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94C7CACF1D88720E000C2C9D /* Build configuration list for PBXProject "LendingClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7CAFD1D88720E000C2C9D /* Debug */,
+				94C7CAFE1D88720E000C2C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94C7CAFF1D88720E000C2C9D /* Build configuration list for PBXNativeTarget "LendingClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7CB001D88720E000C2C9D /* Debug */,
+				94C7CB011D88720E000C2C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94C7CB021D88720E000C2C9D /* Build configuration list for PBXNativeTarget "LendingClubTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7CB031D88720E000C2C9D /* Debug */,
+				94C7CB041D88720E000C2C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		94C7CB051D88720E000C2C9D /* Build configuration list for PBXNativeTarget "LendingClubUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94C7CB061D88720E000C2C9D /* Debug */,
+				94C7CB071D88720E000C2C9D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		94C7CADE1D88720E000C2C9D /* LendingClub.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				94C7CADF1D88720E000C2C9D /* LendingClub.xcdatamodel */,
+			);
+			currentVersion = 94C7CADF1D88720E000C2C9D /* LendingClub.xcdatamodel */;
+			path = LendingClub.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 94C7CACC1D88720E000C2C9D /* Project object */;
+}
